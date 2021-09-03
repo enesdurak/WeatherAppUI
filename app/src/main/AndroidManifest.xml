@@ -10,13 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project1WeatherUI">
         <activity
-            android:name=".SnowyActivity"
-            android:exported="true" />
-        <activity
-            android:name=".SunnyActivity"
-            android:exported="true" />
-        <activity
-            android:name=".RainyActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
